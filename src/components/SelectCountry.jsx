@@ -112,7 +112,7 @@ function SelectCountry() {
           <b>
             You selected <span style={{ fontSize: 20 }}>{selectcities}</span>,{" "}
             <span style={{ color: "grey" }}>
-              {selectstates}, {selectCountries
+              {selectstates}, {selectCountries}
             </span>
           </b>
         </p>
