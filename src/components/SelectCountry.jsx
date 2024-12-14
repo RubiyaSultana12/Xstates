@@ -107,17 +107,14 @@ function SelectCountry() {
           ))}
         </select>
       </div>
-      {selectcities ? (
+  {selectcities ? (
         <p>
           <b>
-          You Selected <span style={{
-            fontSize:"20px"
-          }}>{selectcities}</span>, {" "}
-           
-          <span style={{ color:"gray"
-          }}>{selectstates}, {""}
-          {selectCountries}</span>
-            </b>
+            You selected <span style={{ fontSize: 20 }}>{selectcities}</span>,{" "}
+            <span style={{ color: "grey" }}>
+              {selectstates}, {selectCountries
+            </span>
+          </b>
         </p>
       ) : (
         <></>
